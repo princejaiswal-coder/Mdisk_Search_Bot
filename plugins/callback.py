@@ -170,7 +170,7 @@ async def button(bot, cmd: CallbackQuery):
             ], 
                                         [
                         InlineKeyboardButton("Mdisk", callback_data="Mdisk_msg"),
-                        InlineKeyboardButton('Watch Photo', url='https://telegra.ph/file/abdc2f0e2d59f6bb67fa5.jpg')
+                        InlineKeyboardButton('Watch Photo', url='https://graph.org/file/abdc2f0e2d59f6bb67fa5.jpg')
                     ],[
                         InlineKeyboardButton("Back", callback_data="Watch_msg")
                 ]
