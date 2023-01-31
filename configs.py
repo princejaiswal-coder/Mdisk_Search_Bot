@@ -5,13 +5,13 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "22008102"))
-    API_HASH = os.getenv("API_HASH", "a64c29de8638ec7a6baa196f42a7806b")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5800632677:AAGX5xfkBmc23Y-LWeFX2pYPfBMSUFWqvDc")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1AZWarzYBuzbHoStZacGffq1b9TpneKzKvhKAPXMfpHYwA3ZJ_WUc8bIsjf5_7Vo6gSz_lgyAtekY42qwo4pxxRCNhAVXLvobWI6AG1o3lg4tn-bdGnaJp-vLgJ0CvNwxzJuXXK-9qVh9FLM-zFGx_BdRnyc5VtvRzBGFdByjzK4Qix_86shfONwoJjOOtND7HfmlPyoPvWJhUiy3tmTTe1qfIdEUkOeXQJE_R8r3z4jZ01PcHWZlaWak8h_Y2GVH-0mZ3unya38C9lZHjG4JTXC15UV2DOPgqbDSOXi-Lj0jkup5Bxf5Ug5lrw4f-2hr1plSwe56iy-yzylvLVHtDRAOIzTPSoI=")
+    API_ID = int(os.getenv("API_ID", "20424837"))
+    API_HASH = os.getenv("API_HASH", "2342eef0598b7c9402685e0e15db316f")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "6190564949:AAG_WXHY5Qz_WNbFLcMzyvR3DNw1QBpMQL8")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdisk_movies_searchbot")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "BQAY8mStos-RcmIXVN1rav22oRO0VJxr43PN0y2X8Lkn4nYZjt0brfEP8ra7rmbkD18ZmcXcGafa2UWLyo2pY_FLOZvt6C1fdTpFDlMi-fhYCIxDztXs_-Td7jDCfz1FrIklkeT2Sv0uqKd2X2W0tqfkPkyDqzxOoASPVrPWoIEfxjwfnHTA5LO-YPcDfniHIX8vUObAQQ8Zu4_cg_OJW62pyDC-pDauEFguK3VyX7QgKOXVR6I4PAqnaCgGgK_rTqaeTFGK-asnFiwZzgDgkLTuf7BmOwqaTV634BeudyzRwWDWh8zILY8mTde7Njv1_LBnGSifaHA3AWcpZKfUacl8AAAAAVrACNkA")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001874728940")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "mdiskgiftbot")
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "mdisk_movies_searchbot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "1296213694"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "cyniteSupport")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "cyberstainbot")
